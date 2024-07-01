@@ -1,9 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-
 df = pd.read_csv('calories_clean.csv')
-
 st.set_page_config(layout="wide")
 st.title('Calorie Lookup')
 
