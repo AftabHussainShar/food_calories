@@ -31,6 +31,5 @@ with st.container():
     st.markdown("---")
     st.write("Created by [Aftab Hussain Shar](https://www.linkedin.com/in/aftab-hussain-912853245/) with :heart:")
     st.write("25-June-2024")
-
     st.markdown("---")
     
