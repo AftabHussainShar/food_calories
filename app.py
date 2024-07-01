@@ -28,9 +28,6 @@ with st.container():
             st.write(food_data)
         else:
             st.write('No data found')
-            
-            
-# Footer with my info
 
 with st.container():
     st.markdown("---")
