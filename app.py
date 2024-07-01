@@ -12,10 +12,8 @@ with st.container():
         st.header('Calorie Range')
         min_calories = st.slider('Min. Calorie', 0, 1009, 0)
         max_calories = st.slider('Max. Calorie', 0, 1009, 1009)
-    
         filter_data = df[(df['Cals_per100grams'] >= min_calories) & (df['Cals_per100grams'] <= max_calories)]
         st.write(filter_data)
-        
         plt = px.bar(filter_data, x='Cals_per100grams', y='FoodItem', orientation='h')
         st.plotly_chart(plt)
         
